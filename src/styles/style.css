@@ -25,11 +25,10 @@ body {
   display: block;
 }
 
-.d-flex {
+.d-flex-center {
   display: flex;
-}
-
-.centered {
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -37,7 +36,10 @@ body {
   display: flex;
   justify-content: center;
   padding: 100px 0;
-  height: 914px;
+}
+
+.content {
+  max-width: 1110px;
 }
 
 .p-abs {
@@ -50,6 +52,10 @@ body {
 
 .header-text-mt {
   margin-top: 190px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .z-1 {
@@ -65,21 +71,20 @@ body {
   flex-direction: column;
 }
 
-.d-flex-end {
-  display: flex;
-  align-items: flex-end;
-}
-
 .mt-0 {
   margin-top: 0;
 }
 
-.m-0 {
-  margin: 0;
+.pb-0 {
+  padding-bottom: 0;
 }
 
-.content {
-  max-width: 1110px;
+.mt-30 {
+  margin-top: 30px;
+}
+
+.m-0 {
+  margin: 0;
 }
 
 .col-2 {
@@ -103,6 +108,18 @@ body {
   text-decoration: none;
   display: inline-block;
   margin-top: 40px;
+}
+
+.video {
+  margin-top: 30px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.video-overlay {
+  height: 116px;
+  width: 100%;
+  top: -100px;
+  background: #42413c;
 }
 
 .main-font {
@@ -159,6 +176,10 @@ body {
 
 .text-dark {
   color: #2a2626;
+}
+
+.text-dark-1 {
+  color: #212529;
 }
 
 .text-dark-50 {

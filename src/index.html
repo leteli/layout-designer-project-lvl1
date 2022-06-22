@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <header class="sctn bg-light">
+  <header class="sctn bg-image bg-light">
     <div class="content p-rel">
       <h1 class="m-0 p-rel z-2 h1 h-font text-prim">Когнитивные<br>искажения<br>
       <span class="text-dark">в программировании</span></h1>
       <img class="p-abs header-img" alt="Изображение в шапке лендинга" src="../assets/images/main.png"/>
-      <div class="main-font text-dark col-2 header-text-mt">
+      <div class="col-2 header-text-mt">
         <div class="col">
           <p class="mt-0">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
         </div>
         <div class="col">
           <p class="mt-0">Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
           <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-          <a class="bg-prim header-btn text-white" href="#">ПОДРОБНЕЕ</a>
+          <a class="bg-prim header-btn text-white" href="#navigation">ПОДРОБНЕЕ</a>
         </div>
       </div>
     </div>
@@ -29,24 +29,50 @@
   <main>
     <section class="sctn bg-white pb-0">
       <div class="content d-flex-center">
-        <h2 class="m-0 h2 h-font text-dark text-center">Что же это такое,<br>
+        <h2 class="m-0 h2 h-font text-center">Что же это такое,<br>
           <span class="text-prim">когнитивные искажения?</span>
         </h2>
-        <p class="text-center main-font text-dark-1 mt-30">Что такое когнитивные искажения. Petrovna Channel</p>
+        <p class="text-center text-dark-1 mt-30">Что такое когнитивные искажения. Petrovna Channel</p>
         <iframe class="video p-rel z-2" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
       </div>
     </section>
-    <section class="sctn bg-prim-dark p-rel">
+    <section id="navigation" class="sctn bg-prim-dark p-rel">
       <div class="video-overlay p-abs"></div>
-      <div class="content d-flex-center">
-        <h2></h2>
-      </div>
+      <nav class="content d-flex nav-container">
+        <h2 class="h-font h-nav text-prim">5 когнитивных<br>искажений<br>
+          <span class="text-white">о существовании<br>которых стоит<br>помнить</span></h2>  
+        <a class="nav-item bg-light" href="#bias1" >
+          <h2 class="h-number text-prim-dark">1</h2>
+          <h3 class="h-font h3 text-prim m-0">Эффект ИКЕА</h3>
+          <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+        </a>
+        <a href="#bias2" class="nav-item bg-light">
+          <h2 class="h-number text-prim-dark">2</h2>
+          <h3 class="h-font h3 text-prim m-0">Преждевременная оптимизация</h3>
+          <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+        </a>
+        <a href="#bias3" class="nav-item bg-light">
+          <h2 class="h-number text-prim-dark">3</h2>
+          <h3 class="h-font h3 text-prim m-0">Искажение новизны</h3>
+          <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
+        </a>
+        <a href="#bias4" class="nav-item bg-light">
+          <h2 class="h-number text-prim-dark">4</h2>
+          <h3 class="h-font h3 text-prim m-0">Гиперболическое обесценивание</h3>
+          <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
+        </a>
+        <a href="#bias5" class="nav-item bg-light">
+          <h2 class="h-number text-prim-dark">5</h2>
+          <h3 class="h-font h3 text-prim m-0">Ошибка планирования</h3>
+          <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
+        </a>
+      </nav>
     </section>
-    <section ></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section id="bias1" class="bg-image"></section>
+    <section id="bias2" class="bg-image"></section>
+    <section id="bias3" class="bg-image"></section>
+    <section id="bias4" class="bg-image"></section>
+    <section id="bias5" class="bg-image"></section>
   </main>
   <footer></footer>
 </body>

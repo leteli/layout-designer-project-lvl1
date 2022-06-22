@@ -89,6 +89,10 @@ a {
   gap: 20px 30px;
 }
 
+.gap-30 {
+  gap: 30px;
+}
+
 .nav-item {
   width: 350px;
   padding: 24px;
@@ -166,9 +170,8 @@ a {
   background-color: #ea7600;
 }
 
-.video {
-  margin-top: 30px;
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 15%));
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .video-overlay {
@@ -199,6 +202,18 @@ a {
 
 .h3 {
   font-size: 34px;
+}
+
+.h4 {
+  font-size: 24px;
+}
+
+.line {
+  margin: 100px 0 20px;
+  padding-left: 10px;
+  width: 1110px;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 .bg-white {
@@ -247,6 +262,10 @@ a {
 
 .bg-brown {
   background-color: #b09a81;
+}
+
+.text-brown {
+  color: #b09a81;
 }
 
 .text-blue {

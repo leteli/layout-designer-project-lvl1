@@ -7,4 +7,4 @@ lint:
 	npx htmlhint ./src/*.html
 
 deploy:
-	npx surge ./src/
+	npx surge ./src/ --domain wild-attack.surge.sh

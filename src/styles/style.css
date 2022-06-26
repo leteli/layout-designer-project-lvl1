@@ -1,12 +1,12 @@
 /** CSS STYLE **/
 @font-face {
   font-family: "Open Sans";
-  src: url("../../assets/fonts/OpenSans-Regular.ttf");
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: Neucha;
-  src: url("../../assets/fonts/Neucha-Regular.ttf");
+  src: url("../assets/fonts/Neucha-Regular.ttf");
 }
 
 * {
@@ -38,7 +38,7 @@ body {
   height: 100%;
   overflow: hidden;
 
-  background-image: url("../../assets/images/background.png");
+  background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -240,7 +240,7 @@ a {
   width: 50px;
   height: 50px;
 
-  background-image: url("../../assets/images/send.svg");
+  background-image: url("../assets/images/send.svg");
   background-repeat: no-repeat;
   background-position: center;
   content: "";
